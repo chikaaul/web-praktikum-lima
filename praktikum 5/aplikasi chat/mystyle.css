@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chatbox{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+}
+
+.chatbox ul {
+    list-style: none;
+    padding: 15px;
+}
+
+.chatbox input,
+.chatbox button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0;
+}
+
+.chatbox input {
+    left: 0;
+    width: 80%;
+}
+
+.chatbox button {
+    width: 20%;
+}

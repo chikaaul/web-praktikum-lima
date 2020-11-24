@@ -1,0 +1,28 @@
+body{
+    background-image: url("uang.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: arial;
+    
+}
+
+.matauang{
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;;
+}
+
+
+h1{
+    text-align: center;
+}
+.matauang button{
+    bottom: 0;
+    padding: 15px;
+}
+input {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+}
